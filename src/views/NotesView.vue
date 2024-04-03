@@ -12,12 +12,12 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
         <h3>nom comptenu</h3>
         <p>00/00/2024 intitulé</p>
       </router-link>
-      <hr>
+      <span></span>
       <router-link to="/DossierNote">
         <h3>nom comptenu</h3>
         <p>00/00/2024 intitulé</p>
       </router-link>
-      <hr>
+      <span></span>
       <router-link to="/DossierNote">
         <h3>nom comptenu</h3>
         <p>00/00/2024 intitulé</p>
@@ -37,12 +37,12 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
         <h3>nom comptenu</h3>
         <p>00/00/2024 intitulé</p>
       </router-link>
-      <hr>
+      <span></span>
       <router-link to="/DossierNote">
         <h3>nom comptenu</h3>
         <p>00/00/2024 intitulé</p>
       </router-link>
-      <hr>
+      <span></span>
       <router-link to="/DossierNote">
         <h3>nom comptenu</h3>
         <p>00/00/2024 intitulé</p>
@@ -53,22 +53,25 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
 </template>
 <style scoped lang="scss">
 body{
-  margin: 0;
-  padding: 0;
-  font-family: 'Poppins', sans-serif;
   background-color: #F5F5F5;
   main{
     display: flex;
     flex-direction: column;
-    padding-left: 15px;
-    padding-right: 15px;
-  h2{
-    margin-left: 5px;
-    margin-top: 20px;
-    font-size: 19px;
-    font-weight: 700;
-    color: #181818 !important;
-  }
+    padding: 35px 15px;
+    height: calc(100vh - 70px);
+    width: calc(430px - 30px);
+    background-color: #F3F2F8;
+    color: #181818;
+    h1{
+      margin-top: 25px;
+    }
+    h2{
+      margin-left: 5px;
+      margin-top: 20px;
+      font-size: 19px;
+      font-weight: 700;
+      color: #181818 !important;
+    }
     .top {
       a{
         text-decoration: none;
@@ -102,7 +105,6 @@ body{
       padding-top: 10px;
       padding-left: 15px;
       padding-bottom: 10px;
-      width: 79%;
       border-radius: 10px;
       display: flex;
       flex-direction: column;
@@ -124,12 +126,11 @@ body{
         }
       }
     }
-    height: 932px;
-    width: 430px;
-    background-color: #F3F2F8;
-    color: #181818;
   }
-
 }
-
+span{
+  width: 95%;
+  height: 1px;
+  background: gray;
+}
 </style>
