@@ -20,7 +20,7 @@ import Mail1View from "@/views/Mail1View.vue";
 import Indesirable from "@/views/IndesirableView.vue";
 import CorbeilView from "@/views/CorbeilView.vue";
 import Mail2View from "@/views/Mail2View.vue";
-
+import SecuriteDossierView from "@/views/SecuriteDossierView.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -129,6 +129,11 @@ const router = createRouter({
       name: 'mail2',
       component: Mail2View
     },
+    {
+      path: '/securiteDossier',
+      name: 'securite-dossier',
+      component: SecuriteDossierView
+    }
 
   ]
 })

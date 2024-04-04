@@ -103,7 +103,7 @@ import {RouterLink} from "vue-router";
       <p>Wallet</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/securiteDossier">
       <img src="../assets/dossiersecu.jpg" alt="">
       <p>Dossier</p>
     </RouterLink>
