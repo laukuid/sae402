@@ -109,12 +109,16 @@ import {RouterLink} from "vue-router";
         <img src="../assets/appelle.svg" alt="">
       </RouterLink>
 
-      <RouterLink to="/messages">
-        <img src="../assets/message.svg" alt="">
+      <RouterLink to="/safari">
+        <img src="../assets/safari.svg" alt="">
       </RouterLink>
 
       <RouterLink to="/messages">
         <img src="../assets/message.svg" alt="">
+      </RouterLink>
+
+      <RouterLink to="/">
+        <img src="../assets/musique.svg" alt="">
       </RouterLink>
 
     </div>
@@ -130,16 +134,15 @@ import {RouterLink} from "vue-router";
   flex-wrap: wrap;
   margin-top: 45px;
   padding: 25px;
-  padding-bottom: 312px;
+  padding-bottom: 350px;
   overflow-y: hidden;
-  gap: 25px;
   a{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5px;
-    width: 70px;
+    width: 90px;
     height: 100px;
     text-decoration: none;
     color: white;
@@ -155,6 +158,10 @@ import {RouterLink} from "vue-router";
     width: 396px;
     height: 83px;
     display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
     background-color: rgb(96, 96, 96, 38%);
     border-radius: 15px;
   }
