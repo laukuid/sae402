@@ -1,6 +1,15 @@
 <script setup>
-import { ref } from 'vue';
-import { RouterLink, RouterView } from 'vue-router';
+import { RouterLink, RouterView, useRoute } from 'vue-router';
+import { ref, computed } from 'vue';
+
+// Route actuelle
+const route = useRoute();
+
+// Couleur du texte
+const textColor = computed(() => {
+  // Si la route actuelle est "/notes", retourne "black", sinon "white"
+  return route.path === '/notes' ? 'black' : 'white';
+});
 
 // Heure de départ à partir de laquelle l'horloge commencera à avancer
 const startTime = new Date();
@@ -30,7 +39,6 @@ function getFormattedTime(time) {
       <p> {{ formattedTime  }} </p>
       <div class="HeaderIcon">
         <img src="../../src/assets/reseau.svg">
-        <img src="../../src/assets/ios-wifi.svg">
         <img src="../../src/assets/battery.svg">
       </div>
     </nav>
