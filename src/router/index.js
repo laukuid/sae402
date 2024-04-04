@@ -17,6 +17,9 @@ import Note8View from "@/views/Note8View.vue";
 import MailView from "@/views/MailView.vue";
 import ReceptionView from "@/views/ReceptionView.vue";
 import Mail1View from "@/views/Mail1View.vue";
+import Indesirable from "@/views/IndesirableView.vue";
+import CorbeilView from "@/views/CorbeilView.vue";
+import Mail2View from "@/views/Mail2View.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -110,7 +113,22 @@ const router = createRouter({
       path: '/mail1',
       name: 'mail1',
       component: Mail1View
-    }
+    },
+    {
+      path: '/indesirable',
+      name: 'indesirable',
+      component: Indesirable
+    },
+    {
+      path: '/corbeil',
+      name: 'corbeil',
+      component: CorbeilView
+    },
+    {
+      path: '/mail2',
+      name: 'mail2',
+      component: Mail2View
+    },
 
   ]
 })

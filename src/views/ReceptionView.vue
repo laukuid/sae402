@@ -24,115 +24,108 @@
       </div>
 
       <div class="content">
-
-        <router-link to="/notesIndice">
-          <div class="intitule"><h3>nom comptenu</h3>
+        <span></span>
+        <router-link to="/mail1">
+          <div class="intitule"><h3>Intranet IUT de Troyes</h3>
             <p>10:16 <img src="@/assets/flecheG.svg"></p></div>
-          <h4 class="object">object</h4>
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, animi dolor eos error maxime
-            rerum
-            sunt! </p>
+          <h4 class="object">Changement d'état de votre stage : Saisie autorisée...</h4>
+          <p class="text">Bonjour pierre,  Nous avons bien reçu ta proposition de stage signé. tu peux
+            maintenant ... </p>
         </router-link>
         <span></span>
       </div>
       <div class="content">
-
-        <router-link to="/notesIndice">
-          <div class="intitule"><h3>nom comptenu</h3>
+        <span></span>
+        <router-link to="/mail1">
+          <div class="intitule"><h3>Intranet IUT de Troyes</h3>
             <p>10:16 <img src="@/assets/flecheG.svg"></p></div>
-          <h4 class="object">object</h4>
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, animi dolor eos error maxime
-            rerum
-            sunt! </p>
-          <span></span>
-        </router-link>
-      </div>
-      <div class="content">
-
-        <router-link to="/notesIndice">
-          <div class="intitule"><h3>nom comptenu</h3>
-            <p>10:16 <img src="@/assets/flecheG.svg"></p></div>
-          <h4 class="object">object</h4>
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, animi dolor eos error maxime
-            rerum
-            sunt! </p>
-          <span></span>
-        </router-link>
-      </div>
-
-      <div class="content">
-
-        <router-link to="/notesIndice">
-          <div class="intitule"><h3>nom comptenu</h3>
-            <p>10:16 <img src="@/assets/flecheG.svg"></p></div>
-          <h4 class="object">object</h4>
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, animi dolor eos error maxime
-            rerum
-            sunt! </p>
+          <h4 class="object">Changement d'état de votre stage : Saisie autorisée...</h4>
+          <p class="text">Bonjour pierre,  Nous avons bien reçu ta proposition de stage signé. tu peux
+            maintenant ... </p>
         </router-link>
         <span></span>
       </div>
 
       <div class="content">
-
-        <router-link to="/notesIndice">
-          <div class="intitule"><h3>nom comptenu</h3>
+        <span></span>
+        <router-link to="/mail1">
+          <div class="intitule"><h3>Intranet IUT de Troyes</h3>
             <p>10:16 <img src="@/assets/flecheG.svg"></p></div>
-          <h4 class="object">object</h4>
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, animi dolor eos error maxime
-            rerum
-            sunt! </p>
+          <h4 class="object">Changement d'état de votre stage : Saisie autorisée...</h4>
+          <p class="text">Bonjour pierre,  Nous avons bien reçu ta proposition de stage signé. tu peux
+            maintenant ... </p>
         </router-link>
         <span></span>
       </div>
 
       <div class="content">
-
-        <router-link to="/notesIndice">
-          <div class="intitule"><h3>nom comptenu</h3>
+        <span></span>
+        <router-link to="/mail1">
+          <div class="intitule"><h3>Intranet IUT de Troyes</h3>
             <p>10:16 <img src="@/assets/flecheG.svg"></p></div>
-          <h4 class="object">object</h4>
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, animi dolor eos error maxime
-            rerum
-          </p>
+          <h4 class="object">Changement d'état de votre stage : Saisie autorisée...</h4>
+          <p class="text">Bonjour pierre,  Nous avons bien reçu ta proposition de stage signé. tu peux
+            maintenant ... </p>
         </router-link>
         <span></span>
       </div>
 
       <div class="content">
-
-        <router-link to="/notesIndice">
-          <div class="intitule"><h3>nom comptenu</h3>
+        <span></span>
+        <router-link to="/mail1">
+          <div class="intitule"><h3>Intranet IUT de Troyes</h3>
             <p>10:16 <img src="@/assets/flecheG.svg"></p></div>
-          <h4 class="object">object</h4>
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, animi dolor eos error maxime
-            rerum
-            sunt! </p>
+          <h4 class="object">Changement d'état de votre stage : Saisie autorisée...</h4>
+          <p class="text">Bonjour pierre,  Nous avons bien reçu ta proposition de stage signé. tu peux
+            maintenant ... </p>
         </router-link>
         <span></span>
       </div>
 
       <div class="content">
-
-        <router-link to="/notesIndice">
-          <div class="intitule"><h3>nom comptenu</h3>
+        <span></span>
+        <router-link to="/mail1">
+          <div class="intitule"><h3>Intranet IUT de Troyes</h3>
             <p>10:16 <img src="@/assets/flecheG.svg"></p></div>
-          <h4 class="object">object</h4>
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, animi dolor eos error maxime
-            rerum
-            sunt! </p>
+          <h4 class="object">Changement d'état de votre stage : Saisie autorisée...</h4>
+          <p class="text">Bonjour pierre,  Nous avons bien reçu ta proposition de stage signé. tu peux
+            maintenant ... </p>
         </router-link>
         <span></span>
       </div>
-      <div class="content">
 
-        <router-link to="/notesIndice">
-          <div class="intitule"><h3>nom comptenu</h3>
+      <div class="content">
+        <span></span>
+        <router-link to="/mail1">
+          <div class="intitule"><h3>Intranet IUT de Troyes</h3>
             <p>10:16 <img src="@/assets/flecheG.svg"></p></div>
-          <h4 class="object">object</h4>
-          <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, animi dolor eos error maxime
-            rerum
-            sunt! </p>
+          <h4 class="object">Changement d'état de votre stage : Saisie autorisée...</h4>
+          <p class="text">Bonjour pierre,  Nous avons bien reçu ta proposition de stage signé. tu peux
+            maintenant ... </p>
+        </router-link>
+        <span></span>
+      </div>
+
+      <div class="content">
+        <span></span>
+        <router-link to="/mail1">
+          <div class="intitule"><h3>Intranet IUT de Troyes</h3>
+            <p>10:16 <img src="@/assets/flecheG.svg"></p></div>
+          <h4 class="object">Changement d'état de votre stage : Saisie autorisée...</h4>
+          <p class="text">Bonjour pierre,  Nous avons bien reçu ta proposition de stage signé. tu peux
+            maintenant ... </p>
+        </router-link>
+        <span></span>
+      </div>
+
+      <div class="content">
+        <span></span>
+        <router-link to="/mail1">
+          <div class="intitule"><h3>Intranet IUT de Troyes</h3>
+            <p>10:16 <img src="@/assets/flecheG.svg"></p></div>
+          <h4 class="object">Changement d'état de votre stage : Saisie autorisée...</h4>
+          <p class="text">Bonjour pierre,  Nous avons bien reçu ta proposition de stage signé. tu peux
+            maintenant ... </p>
         </router-link>
         <span></span>
       </div>
@@ -158,6 +151,7 @@ body {
       display: flex;
       flex-direction: column;
       overflow: auto;
+      overflow-x: hidden;
       width: 100%;
 
       span {

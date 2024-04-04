@@ -13,10 +13,10 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
 
       </router-link>
       <span></span>
-      <router-link to="/supprimerNote">
+
         <div class="sous-content"><div class="sous-sous-content"><img src="@/assets/etoile.svg" alt=""><h3>VIP</h3></div><div class="content-sous"><p>1</p>
           <img src="@/assets/flecheG.svg" alt="fleche gris"></div></div>
-      </router-link>
+
 
 
 
@@ -25,30 +25,30 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
       Gmail
     </h3>
     <div class="content">
-      <router-link to="/notes">
+
         <div class="sous-content"><div class="sous-sous-content"><img src="@/assets/brouillon.svg" alt=""> <h3>Brouillon</h3></div><div class="content-sous"><p>8</p>
           <img src="@/assets/flecheG.svg" alt="fleche gris"></div></div>
 
-      </router-link>
+
       <span></span>
-      <router-link to="/supprimerNote">
+
         <div class="sous-content"><div class="sous-sous-content"><img src="@/assets/envoye.svg" alt=""><h3>Envoyé</h3></div></div>
-      </router-link>
+
       <span></span>
-      <router-link to="/supprimerNote">
+      <router-link to="/indesirable">
         <div class="sous-content"><div class="sous-sous-content"><img src="@/assets/indésirable.svg" alt=""><h3>Indésirable</h3></div><div class="content-sous"><p>1</p>
           <img src="@/assets/flecheG.svg" alt="fleche gris"></div></div>
       </router-link>
       <span></span>
-      <router-link to="/supprimerNote">
+      <router-link to="/corbeil">
         <div class="sous-content"><div class="sous-sous-content"><img src="@/assets/poubelleB.svg" alt=""><h3>Corbeille</h3></div><div class="content-sous"><p>1</p>
           <img src="@/assets/flecheG.svg" alt="fleche gris"></div></div>
       </router-link>
       <span></span>
-      <router-link to="/supprimerNote">
+
         <div class="sous-content"><div class="sous-sous-content"><img src="@/assets/tousmail.svg" alt=""><h3>Tous les mails</h3></div><div class="content-sous"><p>1</p>
           <img src="@/assets/flecheG.svg" alt="fleche gris"></div></div>
-      </router-link>
+
     </div>
   </main>
 </template>
