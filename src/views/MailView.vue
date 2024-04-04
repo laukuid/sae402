@@ -7,7 +7,7 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
       <p class="modifier">Modifier</p></div>
     <h2>Boîtes</h2>
     <div class="content">
-      <router-link to="/notes">
+      <router-link to="/reception">
         <div class="sous-content"><div class="sous-sous-content"><img src="@/assets/reception.svg" alt=""> <h3>Reception</h3></div><div class="content-sous"><p>8</p>
           <img src="@/assets/flecheG.svg" alt="fleche gris"></div></div>
 
