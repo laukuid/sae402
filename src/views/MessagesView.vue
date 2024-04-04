@@ -5,14 +5,14 @@
 
   <ul class="message-list">
     <!-- Exemple pour le premier message audio -->
-    <li class="message-item">
+    <RouterLink to="/message1" class="message-item">
       <div class="avatar"></div>
       <div class="message-content">
         <div class="message-title">+33 6 19 36 44 63</div>
         <div class="message-preview">1 message audio</div>
       </div>
       <div class="message-date">10:22</div>
-    </li>
+    </RouterLink>
     <!-- Exemple pour Papa -->
     <li class="message-item">
       <div class="avatar"></div>
@@ -104,7 +104,7 @@
   </ul>
 </template>
 
-<style>
+<style scoped>
 
 .top-bar {
   padding: 10px;
@@ -128,6 +128,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
+  color: black;
 }
 
 .avatar {
@@ -196,3 +198,6 @@
   flex-shrink: 0; /* Empêche le rétrécissement */
 }
 </style>
+<script setup>
+import {RouterLink} from "vue-router";
+</script>

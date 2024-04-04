@@ -50,7 +50,7 @@ import {RouterLink} from "vue-router";
 
     <RouterLink to="/">
       <img src="../assets/memorie.svg" alt="">
-      <p>Mémorie</p>
+      <p>Mémory</p>
     </RouterLink>
 
     <RouterLink to="/notes">
@@ -134,7 +134,7 @@ import {RouterLink} from "vue-router";
   flex-wrap: wrap;
   margin-top: 45px;
   padding: 25px;
-  padding-bottom: 350px;
+  padding-bottom: 330px;
   overflow-y: hidden;
   a{
     display: flex;
@@ -143,7 +143,7 @@ import {RouterLink} from "vue-router";
     justify-content: center;
     gap: 5px;
     width: 90px;
-    height: 100px;
+    height: 110px;
     text-decoration: none;
     color: white;
     img{
