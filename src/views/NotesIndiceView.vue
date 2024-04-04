@@ -1,22 +1,17 @@
 <script setup>
-
+import { RouterLink, RouterView, useRouter  } from 'vue-router'
 </script>
-
 <template>
   <main>
-    <div class="top"><router-link class="retour" to="/dossierNote"><img src="/public/fleche_jaune.svg"><p>Dossiers</p></router-link>
+    <div class="top"><router-link class="retour" to="/notes"><img src="/public/fleche_jaune.svg"><p>Notes</p></router-link>
       <p>Modifier</p></div>
-    <h1>Suppr.récentes</h1>
-    <div class="content">
-      <router-link to="/notesIndice">
-        <h3>nom comptenu</h3>
-        <p>00/00/2024 intitulé</p>
-      </router-link>
-    </div>
+    <h1>Indice</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam aut, blanditiis deleniti doloremque expedita fugiat impedit iste minima nihil nobis nostrum omnis qui quia quisquam quod tempore, totam voluptates.</p>
+
+
 
   </main>
 </template>
-
 <style scoped lang="scss">
 body{
   background-color: #F5F5F5;
@@ -28,6 +23,12 @@ body{
     width: calc(430px - 30px);
     background-color: #F3F2F8;
     color: #181818;
+    p{
+      font-size: 15px;
+      font-weight: 300;
+      color: #454545;
+      line-height: 1.5;
+    }
     h1{
       margin-top: 25px;
     }
@@ -43,11 +44,11 @@ body{
         text-decoration: none;
         color: #e4af0b ;
         padding: 0;
-        font-size: 21px;
+        font-size: 17px;
       }
       p{
         color: #e4af0b ;
-        font-size: 21px;
+        font-size: 17px;
       }
       padding-top: 10px;
       display: flex;
@@ -103,4 +104,9 @@ span{
   background: gray;
 }
 
+span{
+  width: 95%;
+  height: 1px;
+  background: gray;
+}
 </style>

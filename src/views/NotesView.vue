@@ -8,17 +8,17 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
     <h1>Notes</h1>
     <h2>Epinglées</h2>
     <div class="content">
-      <router-link to="/DossierNote">
+      <router-link to="/note1">
         <h3>nom comptenu</h3>
         <p>00/00/2024 intitulé</p>
       </router-link>
       <span></span>
-      <router-link to="/DossierNote">
+      <router-link to="/note2">
         <h3>nom comptenu</h3>
         <p>00/00/2024 intitulé</p>
       </router-link>
       <span></span>
-      <router-link to="/DossierNote">
+      <router-link to="/note3">
         <h3>nom comptenu</h3>
         <p>00/00/2024 intitulé</p>
       </router-link>
@@ -26,24 +26,24 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
     </div>
     <h2>Hier</h2>
     <div class="content">
-      <router-link to="/DossierNote">
+      <router-link to="/note4">
         <h3>nom comptenu</h3>
         <p>00/00/2024 intitulé</p>
       </router-link>
     </div>
     <h2>Mars</h2>
     <div class="content">
-      <router-link to="/DossierNote">
+      <router-link to="/note5">
         <h3>nom comptenu</h3>
         <p>00/00/2024 intitulé</p>
       </router-link>
       <span></span>
-      <router-link to="/DossierNote">
+      <router-link to="/note6">
         <h3>nom comptenu</h3>
         <p>00/00/2024 intitulé</p>
       </router-link>
       <span></span>
-      <router-link to="/DossierNote">
+      <router-link to="/note7">
         <h3>nom comptenu</h3>
         <p>00/00/2024 intitulé</p>
       </router-link>
