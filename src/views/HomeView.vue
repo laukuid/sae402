@@ -103,6 +103,10 @@ import {RouterLink} from "vue-router";
       <p>Wallet</p>
     </RouterLink>
 
+    <RouterLink to="/">
+      <img src="../assets/dossiersecu.jpg" alt="">
+      <p>Dossier</p>
+    </RouterLink>
     <div class="NavAcueil">
 
       <RouterLink to="/appelle">
@@ -150,6 +154,7 @@ import {RouterLink} from "vue-router";
       width: 60px;
       height: 60px;
       object-fit: cover;
+      border-radius: 12px;
     }
   }
   .NavAcueil{
