@@ -8,8 +8,8 @@ export default {
   },
   methods: {
     checkCode() {
-      if (this.code.toString() === '1234') { // Convertissez this.code en chaîne de caractères
-        this.$router.push('/sousPage');
+      if (this.code.toString() === '1') { // Convertissez this.code en chaîne de caractères
+        this.$router.push('/code');
       } else {
         this.error = true;
       }
@@ -19,14 +19,14 @@ export default {
 </script>
 
 <template>
-<main>
-  <div class="chiffre">
-    <h1>Entrez le code à 4 chiffres</h1>
-    <input v-model="code" type="number" min="0" max="9999" />
-    <button @click="checkCode">Valider</button>
-    <p v-if="error">Le code est incorrect</p>
-  </div>
-</main>
+  <main>
+    <div class="chiffre">
+      <h1>Entrez le code à 1 chiffre</h1>
+      <input v-model="code" type="number" min="0" max="9" />
+      <button @click="checkCode">Valider</button>
+      <p v-if="error">Le code est incorrect</p>
+    </div>
+  </main>
 </template>
 
 <style scoped lang="scss">
@@ -67,14 +67,13 @@ body {
         font-size: 20px;
         border: none;
         border-radius: 5px;
-        margin-bottom: 20px;
+
       }
       p{
-        color: #e4af0b;
-        font-size: 20px;
+        color: red;
       }
     }
-    }
-
   }
+
+}
 </style>
