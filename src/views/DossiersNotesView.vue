@@ -7,14 +7,15 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
       <p class="modifier">Modifier</p></div>
     <h2>Sur mon iPhone</h2>
     <div class="content">
-      <router-link to="/DossierNote">
-        <h3>nom comptenu</h3>
-        <p>00/00/2024 intitulé</p>
+      <router-link to="/notes">
+        <div class="sous-content"><div class="sous-sous-content"><img src="@/assets/dossierJ.svg" alt=""> <h3>Notes</h3></div><div class="content-sous"><p>8</p>
+          <img src="@/assets/flecheG.svg" alt="fleche gris"></div></div>
+
       </router-link>
       <span></span>
-      <router-link to="/DossierNote">
-        <h3>nom comptenu</h3>
-        <p>00/00/2024 intitulé</p>
+      <router-link to="/supprimerNote">
+        <div class="sous-content"><div class="sous-sous-content"><img src="@/assets/poubelleJ.svg" alt=""><h3>Suppr. récentes</h3></div><div class="content-sous"><p>1</p>
+          <img src="@/assets/flecheG.svg" alt="fleche gris"></div></div>
       </router-link>
 
     </div>
@@ -93,6 +94,40 @@ body{
       background-color: white;
       color: #181818;
       gap: 10px;
+      .sous-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+        .content-sous{
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          p{
+            font-size: 17px;
+            font-weight: 700;
+            color: #8a898e;
+          }
+          img{
+            width: 13px;
+            height: 13px;
+          }
+        }
+        .sous-sous-content{
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          img{
+            width: 24px;
+            height: 24px;
+          }
+          h3{
+            font-size: 17px;
+            font-weight: 700;
+            color: #181818
+          }
+        }
+      }
       a {
         text-decoration: none;
         h3 {

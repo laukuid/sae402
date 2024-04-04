@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import NotesView from "@/views/NotesView.vue";
 import DossiersNotesView from "@/views/DossiersNotesView.vue";
-
+import SupprimerNotesView from "@/views/SupprimerNotes.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -28,7 +28,13 @@ const router = createRouter({
       path: '/dossierNote',
       name: 'dossiers-notes',
       component: DossiersNotesView
+    },
+    {
+      path: '/supprimerNote',
+      name: 'supprimer-notes',
+      component: SupprimerNotesView
     }
+
   ]
 })
 
