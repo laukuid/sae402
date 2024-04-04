@@ -16,6 +16,7 @@ import Note7View from "@/views/Note7View.vue";
 import Note8View from "@/views/Note8View.vue";
 import MailView from "@/views/MailView.vue";
 import ReceptionView from "@/views/ReceptionView.vue";
+import Mail1View from "@/views/Mail1View.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -104,6 +105,11 @@ const router = createRouter({
       path: '/reception',
       name: 'reception',
       component: ReceptionView
+    },
+    {
+      path: '/mail1',
+      name: 'mail1',
+      component: Mail1View
     }
 
   ]
