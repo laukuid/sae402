@@ -43,7 +43,10 @@
           <p class="text">Bonjour pierre,  Nous avons bien reçu ta proposition de stage signé. tu peux
             maintenant ... </p>
         </router-link>
-        <span></span
+        <span></span>
+      </div>
+    </div>
+
 </main>
 </template>
 
