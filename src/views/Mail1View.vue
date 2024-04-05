@@ -10,14 +10,14 @@
       <p>Modifier</p></div>
     <div class="headMail">
       <div class="headImage"><img src="@/assets/profil.svg" alt="profil"></div>
-      <div class="headEnTete"><h2>Intranet IUT de Troyes</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
+      <div class="headEnTete"><h2>Unity Asset Store</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
     </div>
     <span></span>
     <div class="container">
-      <h1>Changement d'état de votre stage : Saisie autorisé</h1>
-      <p>Bonjour pierre, <br><br> Nous avons bien reçu ta proposition de stage signé. tu peux maintenant accéder au
-        formulaire pour saisir les informations en vue de l'édition de la convention. Tu seras informé par mail des
-        étapes suivantes</p>
+      <h1>Unity Asset Store</h1>
+      <p>Hi<br> Dive into a treasure trove of over 150 top assets now available for just $20 each. For a limited time,
+      save up to 80% on an array of 3D and 2D assets, tools, VFX, and music designed to accelerate your game developpement projects.
+    <br><br>These deals won't last long, so don't miss out.</p>
     </div>
 
   </main>

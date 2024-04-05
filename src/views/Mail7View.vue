@@ -11,12 +11,19 @@
     <span></span>
     <div class="headMail">
       <div class="headImage"><img src="@/assets/profil.svg" alt="profil"></div>
-      <div class="headEnTete"><h2>Spotify</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
+      <div class="headEnTete"><h2>Sony</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
     </div>
     <span></span>
     <div class="container">
-      <h1>Recommandations de concerts personnalisées près de chez vous : Luidji, Ninho et bien plus encore</h1>
-      <p>Bonjour,<br><br> Nous vous recommandons les artistes populaires du moment</p>
+      <h1>Notification de changement du mot de passe</h1>
+      <p>Notification de changement du mot de passe
+
+Cliquez sur le bouton ci-dessous pour continuer.
+
+Récupération de votre compte
+Ce lien expirera 24 heures après son envoi.
+
+Ce message a été envoyé depuis une adresse ne gérant que les envois. Veuillez ne pas répondre à ce message. Pour obtenir plus de renseignements au sujet de votre compte, veuillez consulter les liens ci-dessous.</p>
     </div>
 
   </main>

@@ -20,6 +20,14 @@ import Mail1View from "@/views/Mail1View.vue";
 import Indesirable from "@/views/IndesirableView.vue";
 import CorbeilView from "@/views/CorbeilView.vue";
 import Mail2View from "@/views/Mail2View.vue";
+import Mail3View from "@/views/Mail3View.vue";
+import Mail4View from "@/views/Mail4View.vue";
+import Mail5View from "@/views/Mail5View.vue";
+import Mail6View from "@/views/Mail6View.vue";
+import Mail7View from "@/views/Mail7View.vue";
+import Mail8View from "@/views/Mail8View.vue";
+import Mail9View from "@/views/Mail9View.vue";
+import Mail10View from "@/views/Mail10View.vue";
 import CameraView from "@/views/CamreraView.vue";
 import ErreurReseauView from "@/views/ErreurReseauView.vue";
 import ErreurCrashView from "@/views/ErreurCrashView.vue";
@@ -141,6 +149,46 @@ const router = createRouter({
       path: '/mail2',
       name: 'mail2',
       component: Mail2View
+    },
+    {
+      path: '/mail3',
+      name: 'mail3',
+      component: Mail3View
+    },
+    {
+      path: '/mail4',
+      name: 'mail4',
+      component: Mail4View
+    },
+    {
+      path: '/mail5',
+      name: 'mail5',
+      component: Mail5View
+    },
+    {
+      path: '/mail6',
+      name: 'mail6',
+      component: Mail6View
+    },
+    {
+      path: '/mail7',
+      name: 'mail7',
+      component: Mail7View
+    },
+    {
+      path: '/mail8',
+      name: 'mail8',
+      component: Mail8View
+    },
+    {
+      path: '/mail9',
+      name: 'mail9',
+      component: Mail9View
+    },
+    {
+      path: '/mail10',
+      name: 'mail10',
+      component: Mail10View
     },
     {
       path: '/securiteDossier',

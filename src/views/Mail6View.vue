@@ -11,12 +11,12 @@
     <span></span>
     <div class="headMail">
       <div class="headImage"><img src="@/assets/profil.svg" alt="profil"></div>
-      <div class="headEnTete"><h2>Spotify</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
+      <div class="headEnTete"><h2>Metricool</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
     </div>
     <span></span>
     <div class="container">
-      <h1>Recommandations de concerts personnalisées près de chez vous : Luidji, Ninho et bien plus encore</h1>
-      <p>Bonjour,<br><br> Nous vous recommandons les artistes populaires du moment</p>
+      <h1>-> Votre récapitulatif de Mars...</h1>
+      <p>Votre blog ou site Web n’est pas connecté à Metricool. Connectez-vous maintenant, c’est facile, allez dans vos paramètres et sélectionnez l’option qui vous convient.</p>
     </div>
 
   </main>

@@ -11,12 +11,12 @@
     <span></span>
     <div class="headMail">
       <div class="headImage"><img src="@/assets/profil.svg" alt="profil"></div>
-      <div class="headEnTete"><h2>Spotify</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
+      <div class="headEnTete"><h2>Linkedin</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
     </div>
     <span></span>
     <div class="container">
-      <h1>Recommandations de concerts personnalisées près de chez vous : Luidji, Ninho et bien plus encore</h1>
-      <p>Bonjour,<br><br> Nous vous recommandons les artistes populaires du moment</p>
+      <h1>Voici les meilleures recommandations pour votre fil d’actualité</h1>
+      <p>Ajoutez du contenu intéressant à votre fil d’actualité. Voici quelques recommandations pour vous aider à commencer.</p>
     </div>
 
   </main>

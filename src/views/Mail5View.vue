@@ -11,12 +11,14 @@
     <span></span>
     <div class="headMail">
       <div class="headImage"><img src="@/assets/profil.svg" alt="profil"></div>
-      <div class="headEnTete"><h2>Spotify</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
+      <div class="headEnTete"><h2>Paypal</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
     </div>
     <span></span>
     <div class="container">
-      <h1>Recommandations de concerts personnalisées près de chez vous : Luidji, Ninho et bien plus encore</h1>
-      <p>Bonjour,<br><br> Nous vous recommandons les artistes populaires du moment</p>
+      <h1>10 € de bons d'achat = plus de fun</h1>
+      <p>gagnez un bon d'achat de 10 € si un proche ouvre un compte PayPal et dépense 5 €. C’est le moment d’en profiter
+
+Faites passer le mot. Gagnez un bon d'achat de 10 € si un proche ouvre un compte PayPal et dépense 5 €. Vous pourrez ainsi gagner jusqu'à 100 € de bons d'achat en parrainant jusqu'à dix proches.</p>
     </div>
 
   </main>

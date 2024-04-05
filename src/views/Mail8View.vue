@@ -11,12 +11,12 @@
     <span></span>
     <div class="headMail">
       <div class="headImage"><img src="@/assets/profil.svg" alt="profil"></div>
-      <div class="headEnTete"><h2>Spotify</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
+      <div class="headEnTete"><h2>Brawl Stars</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
     </div>
     <span></span>
     <div class="container">
-      <h1>Recommandations de concerts personnalisées près de chez vous : Luidji, Ninho et bien plus encore</h1>
-      <p>Bonjour,<br><br> Nous vous recommandons les artistes populaires du moment</p>
+      <h1>Une nouvelle saison du Pass Brawl commence !</h1>
+      <p>La saison Ragnarok commence, avec le Braw Pass vous pouvez débloquer n'importe quel brawler, gagner des tonnes de récompenses, des prix Starr, le skin de la saison et plus encore !</p>
     </div>
 
   </main>

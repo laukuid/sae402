@@ -11,12 +11,22 @@
     <span></span>
     <div class="headMail">
       <div class="headImage"><img src="@/assets/profil.svg" alt="profil"></div>
-      <div class="headEnTete"><h2>Spotify</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
+      <div class="headEnTete"><h2>Vercel</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
     </div>
     <span></span>
     <div class="container">
-      <h1>Recommandations de concerts personnalisées près de chez vous : Luidji, Ninho et bien plus encore</h1>
-      <p>Bonjour,<br><br> Nous vous recommandons les artistes populaires du moment</p>
+      <h1>Vercel’s improved infrastructure pricing</h1>
+      <p>Hey there,
+
+We're updating our pricing structure based on feedback from our developer community to lower the cost of essentials like bandwidth and functions.
+
+Your Vercel hobby account remains free and doesn’t require a payment method.
+We’re introducing new metrics like Edge Requests. You’re getting free included usage of these in proportion to previously included bandwidth and functions.
+If you happen to exceed these new metrics in the next 6 months, we’ll make sure you are notified and that your projects are unaffected during this period.
+We encourage you to learn more about these metrics, which will in turn help you understand how Vercel’s infrastructure works and scale better with it.
+
+Have questions? Post in our community, open a case, ask questions live, or shoot me a DM on X.
+</p>
     </div>
 
   </main>
