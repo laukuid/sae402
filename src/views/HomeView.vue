@@ -135,6 +135,7 @@ import {RouterLink} from "vue-router";
       height: 60px;
       object-fit: cover;
       border-radius: 12px;
+      background-color: grey;
     }
   }
   .NavAcueil{
