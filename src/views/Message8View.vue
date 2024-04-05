@@ -8,18 +8,22 @@ import {RouterLink} from "vue-router";
     </RouterLink>
     <div class="profil">
       <img src="/src/assets/profil.png" alt="">
-      <p>+33 6 19 36 44 63</p>
+      <p>Amazon</p>
     </div>
 
   </div>
 
   <div class="message-screen">
-    <div class="time">Aujourd'hui 10:17</div>
-    <div class="message sender">Salut beaux gosse</div>
-    <div class="message sender">Salut beauté</div>
-    <div class="message receiver">Bien le bonjour jeune farfadet malicieux</div>
-    <div class="message receiver">Ouais mon gars tu vas bien ou quoi?</div>
-    <div class="message receiver">Je t'écris ce texte long pour voir ce que cela donne sur plusieurs lignes mon bébou sucré</div>
+    <div class="time">9 juin 10:30</div>
+    <div class="message sender">Votre colis (numéro de commande LCA48F924J72) a bien été expédié et devrait arriver chez vous dans les prochains jours ! Vous pouvez suivre sa localisation en suivant le lien suivant : https://oùestmoncolis.amazon.fr</div>
+    <div class="time">11 juin 08:44</div>
+    <div class="message sender">La livraison de votre colis est imminente ! Notre livreur passera chez vous entre 10 et 12h du matin aujourd’hui !</div>
+    <div class="time">11 juin 20:32</div>
+    <div class="message sender">Votre colis a bien été livré à l’adresse spécifiée dans la commande. Merci de votre confiance, et à bientôt chez Amazon !
+
+      Rappel de votre commande :
+
+      Le Cheval Pâle, Agatha Christie. Editions : Le Masque.  Broché, traduction FR,  255p. </div>
   </div>
 
   <div class="input-bar">
@@ -66,6 +70,10 @@ import {RouterLink} from "vue-router";
 .message-screen {
   background: white;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 60vh;
 }
 .message {
   padding: 10px;

@@ -8,18 +8,24 @@ import {RouterLink} from "vue-router";
     </RouterLink>
     <div class="profil">
       <img src="/src/assets/profil.png" alt="">
-      <p>+33 6 19 36 44 63</p>
+      <p>Lisa</p>
     </div>
 
   </div>
 
   <div class="message-screen">
-    <div class="time">Aujourd'hui 10:17</div>
-    <div class="message sender">Salut beaux gosse</div>
-    <div class="message sender">Salut beauté</div>
-    <div class="message receiver">Bien le bonjour jeune farfadet malicieux</div>
-    <div class="message receiver">Ouais mon gars tu vas bien ou quoi?</div>
-    <div class="message receiver">Je t'écris ce texte long pour voir ce que cela donne sur plusieurs lignes mon bébou sucré</div>
+    <div class="time">13 juin 10:17</div>
+    <div class="message sender">Hello ^-^, c’est Lisa, on s’est échangés nos numéros à la soirée de Karl, tu te souviens de moi ? On s'était bien amusés et je voulais pas qu’on se perde de vue hihi.</div>
+    <div class="message receiver">Ahh oui Lisa, oui oui je me souviens ahahah. T’étais bien torchée à un moment quand même quand tu t’es mise à danser sur la table.</div>
+    <div class="message sender">Ouiiiii je sais, je deviens un peu crazyyyyyyy quand je bois trop</div>
+    <div class="message receiver">Je peux pas dire le contraire, je suis un peu pareil, mais moi c’est surtout les trous de mémoire après.</div>
+    <div class="message sender">Moi c’est mes copines qui finissent par me ramener chez moi à chaque fois, je suis trop bourrée pour rentrer toute seule.</div>
+    <div class="message receiver">Ptdrrr t’as des potes en or, on peux pas dire pareil des miens :p .</div>
+    <div class="message sender">Ahahah ouais on se soutient dans nos galères. Du coup je voulais savoir si t’avais envie qu’on se revoit… ? </div>
+    <div class="message receiver">Ouais carrément ! On pourrait se faire un Netflix chez moi ou un truc du genre ? J’ai mon propre appart on sera tranquilles héhé.</div>
+    <div class="message sender">Ça me va alors, on se fixe ça pour quand  ?</div>
+    <div class="message receiver">Disons pour le 21 juin ?</div>
+    <div class="message sender">Allez ! On se voit le 21 alors hihi.</div>
   </div>
 
   <div class="input-bar">
@@ -66,6 +72,10 @@ import {RouterLink} from "vue-router";
 .message-screen {
   background: white;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 60vh;
 }
 .message {
   padding: 10px;
