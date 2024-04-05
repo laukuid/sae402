@@ -1,5 +1,5 @@
 <script setup>
-import { RouterView, useRoute, useRouter } from 'vue-router';
+import {RouterLink, RouterView, useRoute, useRouter} from 'vue-router';
 import { ref, computed, onMounted  } from 'vue';
 
 // Route actuelle
@@ -33,6 +33,9 @@ const changeColor = ref('white');
 const changeColorFunc= () => {
   switch(route.path) {
     case '/':
+      changeColor.value = 'white';
+      break;
+    case '/camera':
       changeColor.value = 'white';
       break;
     default:
@@ -89,6 +92,9 @@ router.afterEach(() => {
       </div>
     </nav>
   </header>
+  <footer>
+    <RouterLink to="/"><span :style="{ 'background-color': changeColor }"></span></RouterLink>
+  </footer>
 </template>
 
 <style scoped lang="scss">
@@ -114,6 +120,25 @@ header{
       align-items: center;
       justify-content: center;
       gap: 8px;
+    }
+  }
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a{
+    span{
+      display: inline-block;
+      width: 155px;
+      height: 6px;
+      border-radius: 5px;
+      background-color: white;
     }
   }
 }

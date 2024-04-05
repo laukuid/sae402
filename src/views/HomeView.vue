@@ -8,12 +8,12 @@ import {RouterLink} from "vue-router";
 
   <div class="Home">
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurReseau">
       <img src="../assets/facetime.svg" alt="">
       <p>FaceTime</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurCrash">
       <img src="../assets/calendar.svg" alt="">
       <p>Calendrier</p>
     </RouterLink>
@@ -23,7 +23,7 @@ import {RouterLink} from "vue-router";
       <p>Photos</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/camera">
       <img src="../assets/camera.svg" alt="">
       <p>Caméra</p>
     </RouterLink>
@@ -33,22 +33,22 @@ import {RouterLink} from "vue-router";
       <p>Mail</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurCrash">
       <img src="../assets/clock.svg" alt="">
       <p>Horloge</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurGPS">
       <img src="../assets/maps.svg" alt="">
       <p>Maps</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurReseau">
       <img src="../assets/meteo.svg" alt="">
       <p>Météo</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurCrash">
       <img src="../assets/memorie.svg" alt="">
       <p>Mémory</p>
     </RouterLink>
@@ -58,12 +58,12 @@ import {RouterLink} from "vue-router";
       <p>Notes</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurReseau">
       <img src="../assets/stocks.svg" alt="">
       <p>Stocks</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurReseau">
       <img src="../assets/news.svg" alt="">
       <p>News</p>
     </RouterLink>
@@ -73,32 +73,32 @@ import {RouterLink} from "vue-router";
       <p>Sainte Bible</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurReseau">
       <img src="../assets/appstore.svg" alt="">
       <p>App Store</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurReseau">
       <img src="../assets/podcast.svg" alt="">
       <p>Podcast</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurReseau">
       <img src="../assets/tv.svg" alt="">
       <p>TV</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurCrash">
       <img src="../assets/health.svg" alt="">
       <p>Health</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurReseau">
       <img src="../assets/maison.svg" alt="">
       <p>Maison</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/erreurReseau">
       <img src="../assets/wallet.svg" alt="">
       <p>Wallet</p>
     </RouterLink>
@@ -109,7 +109,7 @@ import {RouterLink} from "vue-router";
     </RouterLink>
     <div class="NavAcueil">
 
-      <RouterLink to="/appelle">
+      <RouterLink to="/erreurCrash">
         <img src="../assets/appelle.svg" alt="">
       </RouterLink>
 
@@ -121,7 +121,7 @@ import {RouterLink} from "vue-router";
         <img src="../assets/message.svg" alt="">
       </RouterLink>
 
-      <RouterLink to="/">
+      <RouterLink to="/erreurReseau">
         <img src="../assets/musique.svg" alt="">
       </RouterLink>
 

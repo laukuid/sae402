@@ -97,6 +97,8 @@ import {RouterLink} from "vue-router";
   bottom: 0;
   align-items: center;
   gap: 12px;
+  padding-bottom: 40px;
+  z-index: -1;
   img{
     width: 38px;
     height: 38px;

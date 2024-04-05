@@ -20,7 +20,13 @@ import Mail1View from "@/views/Mail1View.vue";
 import Indesirable from "@/views/IndesirableView.vue";
 import CorbeilView from "@/views/CorbeilView.vue";
 import Mail2View from "@/views/Mail2View.vue";
+import CameraView from "@/views/CamreraView.vue";
+import ErreurReseauView from "@/views/ErreurReseauView.vue";
+import ErreurCrashView from "@/views/ErreurCrashView.vue";
+import ErreurGPSView from "@/views/ErreurGPSView.vue";
 import SecuriteDossierView from "@/views/SecuriteDossierView.vue";
+
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -115,6 +121,11 @@ const router = createRouter({
       component: Mail1View
     },
     {
+      path: '/camera',
+      name: 'camera',
+      component: CameraView
+    },
+    {
       path: '/indesirable',
       name: 'indesirable',
       component: Indesirable
@@ -133,8 +144,22 @@ const router = createRouter({
       path: '/securiteDossier',
       name: 'securite-dossier',
       component: SecuriteDossierView
-    }
-
+    },
+    {
+      path: '/erreurReseau',
+      name: 'erreurReseau',
+      component: ErreurReseauView
+    },
+    {
+      path: '/erreurCrash',
+      name: 'erreurCrash',
+      component: ErreurCrashView
+    },
+    {
+      path: '/erreurGPS',
+      name: 'erreurGPS',
+      component: ErreurGPSView
+    },
   ]
 })
 
