@@ -29,6 +29,8 @@ import SousPage from "@/components/SousPage.vue";
 import CodeView from "@/components/CodeView.vue";
 import SafariView from "@/views/SafariView.vue";
 import BibleView from "@/views/BibleView.vue";
+import GalleryView from "@/views/GalleryView.vue";
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -182,6 +184,11 @@ const router = createRouter({
       path: '/bible',
       name: 'bible',
       component: BibleView
+    },
+    {
+      path: '/gallery',
+      name: 'gallery',
+      component: GalleryView
     }
   ]
 })

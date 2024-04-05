@@ -38,6 +38,7 @@ import { RouterLink, RouterView } from 'vue-router';
     justify-content: center;
     align-items: center;
     gap: 25px;
+    height: 140px;
     flex-direction: column;
     background-color: #d0cfcd;
     margin-bottom: 50px;

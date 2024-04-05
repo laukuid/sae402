@@ -42,6 +42,7 @@ import { RouterLink, RouterView } from 'vue-router';
     background-color: #d0cfcd;
     margin-bottom: 50px;
     margin: 20px;
+    height: 140px;
     .text{
       display: flex;
       flex-direction: column;

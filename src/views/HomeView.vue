@@ -18,7 +18,7 @@ import {RouterLink} from "vue-router";
       <p>Calendrier</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/gallery">
       <img src="../assets/photos.svg" alt="">
       <p>Photos</p>
     </RouterLink>
@@ -48,19 +48,9 @@ import {RouterLink} from "vue-router";
       <p>Météo</p>
     </RouterLink>
 
-    <RouterLink to="/erreurCrash">
-      <img src="../assets/memorie.svg" alt="">
-      <p>Mémory</p>
-    </RouterLink>
-
     <RouterLink to="/notes">
       <img src="../assets/note.svg" alt="">
       <p>Notes</p>
-    </RouterLink>
-
-    <RouterLink to="/erreurReseau">
-      <img src="../assets/stocks.svg" alt="">
-      <p>Stocks</p>
     </RouterLink>
 
     <RouterLink to="/erreurReseau">
@@ -79,11 +69,6 @@ import {RouterLink} from "vue-router";
     </RouterLink>
 
     <RouterLink to="/erreurReseau">
-      <img src="../assets/podcast.svg" alt="">
-      <p>Podcast</p>
-    </RouterLink>
-
-    <RouterLink to="/erreurReseau">
       <img src="../assets/tv.svg" alt="">
       <p>TV</p>
     </RouterLink>
@@ -91,11 +76,6 @@ import {RouterLink} from "vue-router";
     <RouterLink to="/erreurCrash">
       <img src="../assets/health.svg" alt="">
       <p>Health</p>
-    </RouterLink>
-
-    <RouterLink to="/erreurReseau">
-      <img src="../assets/maison.svg" alt="">
-      <p>Maison</p>
     </RouterLink>
 
     <RouterLink to="/erreurReseau">
@@ -139,7 +119,7 @@ import {RouterLink} from "vue-router";
   margin-top: 45px;
   padding: 25px;
   padding-bottom: 330px;
-  overflow: auto;
+  overflow-y: hidden;
   a{
     display: flex;
     flex-direction: column;
@@ -163,8 +143,10 @@ import {RouterLink} from "vue-router";
     width: 396px;
     height: 83px;
     display: flex;
+    gap: 5px;
     justify-content: center;
     align-items: center;
+
     background-color: rgb(96, 96, 96, 38%);
     border-radius: 15px;
   }
