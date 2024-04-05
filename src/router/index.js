@@ -25,6 +25,8 @@ import ErreurReseauView from "@/views/ErreurReseauView.vue";
 import ErreurCrashView from "@/views/ErreurCrashView.vue";
 import ErreurGPSView from "@/views/ErreurGPSView.vue";
 import SecuriteDossierView from "@/views/SecuriteDossierView.vue";
+import SousPage from "@/components/SousPage.vue";
+import CodeView from "@/components/CodeView.vue";
 
 
 const router = createRouter({
@@ -160,6 +162,16 @@ const router = createRouter({
       name: 'erreurGPS',
       component: ErreurGPSView
     },
+    {
+      path: '/sousPage',
+      name: 'sous-page',
+      component: SousPage
+    },
+    {
+      path: '/code',
+      name: 'code',
+      component: CodeView
+    }
   ]
 })
 
