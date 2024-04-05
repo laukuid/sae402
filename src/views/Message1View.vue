@@ -8,18 +8,22 @@ import {RouterLink} from "vue-router";
     </RouterLink>
     <div class="profil">
       <img src="/src/assets/profil.png" alt="">
-      <p>+33 6 19 36 44 63</p>
+      <p>Nicolas Spaiz</p>
     </div>
 
   </div>
 
   <div class="message-screen">
-    <div class="time">13 juin 20:17</div>
-    <div class="message sender">Salut beaux gosse</div>
-    <div class="message sender">Salut beauté</div>
-    <div class="message receiver">Bien le bonjour jeune farfadet malicieux</div>
-    <div class="message receiver">Ouais mon gars tu vas bien ou quoi?</div>
-    <div class="message receiver">Je t'écris ce texte long pour voir ce que cela donne sur plusieurs lignes mon bébou sucré</div>
+    <div class="time">16 juin 20:17</div>
+    <div class="message sender">Hello ^-^, c’est Lisa, on s’est échangés nos numéros à la soirée de Karl, tu te souviens de moi ? On s'était bien amusés et je voulais pas qu’on se perde de vue hihi.</div>
+    <div class="message receiver">Nan déso bro, je teste Darksiders 2 ce soir.</div>
+    <div class="message sender">Connaît pas, ça parle de quoi le jeu ?</div>
+    <div class="message receiver">En gros, t’es un Cavalier de l’Apocalypse qui s'appelle Mort, et tu es envoyé sur Terre pour sauver un autre Cavalier, Guerre, et aussi sauver l’humanité. J’ai regardé un peu le jeu avant et ça me tente bien donc je me le suis payé tout à l’heure.
+    </div>
+    <div class="message sender">Le truc de cavalier machin, c’est pas dans la religion chrétienne de base ?</div>
+    <div class="message receiver">Si si ! Précisément, c’est une sorte de réinterprétation de l’histoire des 4 cavaliers du Nouveau Testament.</div>
+    <div class="message sender">Ouais je comprends que ça te plaise, t’es obsédé avec ces histoire de Cavaliers, d’Apocalypse et tout, tu parles que de ça depuis deux semaines, va faire ton catéchisme mec ptdrrrr.</div>
+    <div class="message receiver">Ouais ouais, moque toi si tu veux…</div>
   </div>
 
   <div class="input-bar">
@@ -66,6 +70,10 @@ import {RouterLink} from "vue-router";
 .message-screen {
   background: white;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 60vh;
 }
 .message {
   padding: 10px;

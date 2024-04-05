@@ -8,10 +8,10 @@
     <RouterLink to="/message1" class="message-item">
       <div class="avatar"></div>
       <div class="message-content">
-        <div class="message-title">Spayz</div>
-        <div class="message-preview">1 message audio</div>
+        <div class="message-title">Nicolas Spaiz</div>
+        <div class="message-preview">Ouais ouais, moque toi si tu veux…</div>
       </div>
-      <div class="message-date">10:22</div>
+      <div class="message-date">16/06/2024</div>
     </RouterLink>
     <!-- Exemple pour Papa -->
     <RouterLink to="/message2" class="message-item">
@@ -20,7 +20,7 @@
         <div class="message-title">Papa</div>
         <div class="message-preview">où es-tu ?...</div>
       </div>
-      <div class="message-date">vendredi</div>
+      <div class="message-date">16/06/2024</div>
     </RouterLink>
     <!-- Exemple pour Orange -->
     <RouterLink to="/message3" class="message-item">
@@ -29,7 +29,7 @@
         <div class="message-title">Orange</div>
         <div class="message-preview">Orange : La facture du 06 00 00 00...</div>
       </div>
-      <div class="message-date">26/06/2024</div>
+      <div class="message-date">15/06/2024</div>
     </RouterLink>
     <!-- Exemple pour 888 -->
     <router-link to="/message4" class="message-item">
@@ -38,7 +38,7 @@
         <div class="message-title">888</div>
         <div class="message-preview">"888" messagerie Orange : ...</div>
       </div>
-      <div class="message-date">17/06/2024</div>
+      <div class="message-date">15/06/2024</div>
     </router-link>
     <!-- Exemple pour PASSAGEBLEU -->
     <router-link to="/message5" class="message-item">
@@ -47,7 +47,7 @@
         <div class="message-title">Karl Ledungbud</div>
         <div class="message-preview"> Cool, à ce soir pour Content Warning...</div>
       </div>
-      <div class="message-date">17/06/2024</div>
+      <div class="message-date">14/06/2024</div>
     </router-link>
     <!-- Exemple pour Optic 2000 -->
     <router-link to="/message6" class="message-item">
@@ -56,51 +56,35 @@
         <div class="message-title">Jean Leroux</div>
         <div class="message-preview">Vous : ...</div>
       </div>
-      <div class="message-date">15/06/2024</div>
+      <div class="message-date">14/06/2024</div>
     </router-link>
     <!-- Exemple pour 36105 -->
     <router-link to="/message7" class="message-item">
       <div class="avatar"></div>
       <div class="message-content">
-        <div class="message-title">36105</div>
-        <div class="message-preview">Aujourd'hui, #JeVoteCrous ! Vous avez jusqu'au 8/02 à 17h pour faire...</div>
+        <div class="message-title">lisa</div>
+        <div class="message-preview">Allez ! On se voit le 21 alors hihi.</div>
       </div>
-      <div class="message-date">07/02/2024</div>
+      <div class="message-date">13/06/2024</div>
     </router-link>
     <!-- Exemple pour 38644 -->
     <RouterLink to="/message8" class="message-item">
       <div class="avatar"></div>
       <div class="message-content">
-        <div class="message-title">38644</div>
+        <div class="message-title">Amazon</div>
         <div class="message-preview">PayPal : 715217 est votre code de connexion. Ne partagez pas ce code.</div>
       </div>
-      <div class="message-date">23/01/2024</div>
+      <div class="message-date">11/06/2024</div>
     </RouterLink>
     <!-- Exemple pour l'adresse email -->
-    <li class="message-item">
+    <router-link to="/message9" class="message-item">
       <div class="avatar"></div>
       <div class="message-content">
-        <div class="message-title">lahoangduy0306@gmail.com</div>
-        <div class="message-preview">Bonjour, je suis Sophie. Pouvez-vous me dire si...</div>
+        <div class="message-title">Prof d'art</div>
+        <div class="message-preview">Vous de même, ravi d’avoir pu vous aider !</div>
       </div>
       <div class="message-date">10/01/2024</div>
-    </li>
-    <li class="message-item">
-      <div class="avatar"></div>
-      <div class="message-content">
-        <div class="message-title">Chronopost</div>
-        <div class="message-preview">Votre colis GC598321560FR...</div>
-      </div>
-      <div class="message-date">03/01/2024</div>
-    </li>
-    <li class="message-item">
-      <div class="avatar"></div>
-      <div class="message-content">
-        <div class="message-title">Florian</div>
-        <div class="message-preview">Pièce jointe : 1 vidéo</div>
-      </div>
-      <div class="message-date">14/12/2023</div>
-    </li>
+    </router-link>
   </ul>
 </template>
 

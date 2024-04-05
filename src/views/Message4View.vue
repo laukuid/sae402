@@ -63,6 +63,10 @@ import {RouterLink} from "vue-router";
 .message-screen {
   background: white;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 60vh;
 }
 .message {
   padding: 10px;
