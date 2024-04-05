@@ -10,7 +10,7 @@
       <p>Modifier</p></div>
     <div class="headMail">
       <div class="headImage"><img src="@/assets/profil.svg" alt="profil"></div>
-      <div class="headEnTete"><h2>Unity Asset Store</h2><p>à: theo.lasserre@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
+      <div class="headEnTete"><h2>Unity Asset Store</h2><p>à: theo.lasserre@etudia... et 1 de plus ></p></div><div><p>12:36</p></div>
     </div>
     <span></span>
     <div class="container">
