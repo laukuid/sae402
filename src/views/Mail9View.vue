@@ -11,7 +11,7 @@
     <span></span>
     <div class="headMail">
       <div class="headImage"><img src="@/assets/profil.svg" alt="profil"></div>
-      <div class="headEnTete"><h2>Linkedin</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
+      <div class="headEnTete"><h2>Linkedin</h2><p>à: theo.lasserre@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
     </div>
     <span></span>
     <div class="container">
