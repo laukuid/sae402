@@ -35,6 +35,7 @@ import Mail7View from "@/views/Mail7View.vue";
 import Mail8View from "@/views/Mail8View.vue";
 import Mail9View from "@/views/Mail9View.vue";
 import Mail10View from "@/views/Mail10View.vue";
+import Mail11View from "@/views/Mail11View.vue";
 import CameraView from "@/views/CamreraView.vue";
 import ErreurReseauView from "@/views/ErreurReseauView.vue";
 import ErreurCrashView from "@/views/ErreurCrashView.vue";
@@ -234,6 +235,11 @@ const router = createRouter({
       path: '/mail10',
       name: 'mail10',
       component: Mail10View
+    },
+    {
+      path: '/mail11',
+      name: 'mail11',
+      component: Mail11View
     },
     {
       path: '/securiteDossier',

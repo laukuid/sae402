@@ -5,23 +5,20 @@
 <template>
   <main>
     <div class="top">
-      <router-link class="retour" to="/mail"><img src="@/assets/flecheB.svg">
-        <p>Mail</p></router-link>
+      <router-link class="retour" to="/reception"><img src="@/assets/flecheB.svg">
+        <p>Réception</p></router-link>
       <p>Modifier</p></div>
-    <h1>Corbeil</h1>
-    <div id="content">
-
-      <div class="content">
-        <span></span>
-        <router-link to="/mail11">
-          <div class="intitule"><h3>Agnus Dei</h3>
-            <p>10:16 <img src="@/assets/flecheG.svg"></p></div>
-          <h4 class="object">Mail secte Agnus Dei</h4>
-          <p class="text">Bonjour Monsieur, Je suis Christian HERVIER...</p>
-        </router-link>
-        <span></span>
-      </div>
+    <span></span>
+    <div class="headMail">
+      <div class="headImage"><img src="@/assets/profil.svg" alt="profil"></div>
+      <div class="headEnTete"><h2>Agnus Dei</h2><p>à: pierre.legras@etudia... et 1 de plus ></p></div><div><p>hier</p></div>
     </div>
+    <span></span>
+    <div class="container">
+      <h1><img src="@/assets/Agnus_Dei.png"> <br>Mail secte Agnus Dei</h1>
+      <img class="gendarmerie" src="@/assets/Gendarmerie.png">
+    </div>
+
   </main>
 </template>
 
@@ -37,12 +34,17 @@ body {
     width: calc(430px - 30px);
     background-color: #F3F2F8;
     color: #181818;
+    
+    .gendarmerie{
+        width: 100%;
+        height: 80%;
+      }
 
     #content {
       display: flex;
       flex-direction: column;
       overflow: auto;
-      overflow-x: hidden;
+
       width: 100%;
 
       span {
@@ -71,28 +73,48 @@ body {
       font-weight: 700;
       color: #181818;
     }
+    .container{
+      width: 95%;
+      padding-top: 10px;
+      padding-left: 15px;
 
-    .top {
-      a {
-        text-decoration: none;
-        color: #007aff;
-        padding: 0;
-        font-size: 21px;
+      h1 {
+        font-size: 20px;
+        font-weight: 700;
+
+        color: #181818;
       }
 
       p {
-        color: #007aff;
-        font-size: 21px;
+        font-size: 15px;
+        line-height: 1.8em;
+        color: black;
+        font-weight: 500;
       }
-
+    }
+    .top {
       padding-top: 10px;
       display: flex;
       justify-content: space-between;
       align-items: center;
 
+      a {
+        text-decoration: none;
+        color: #007aff;
+        padding: 0;
+        font-size: 15px;
+      }
+
+      p {
+        color: #007aff;
+        font-weight: 500;
+        margin-left: 5px;
+        font-size: 15px;
+      }
+
       img {
-        width: 24px;
-        height: 24px;
+        width: 10px;
+        height: 10px;
       }
 
       .retour {
@@ -100,8 +122,41 @@ body {
         align-items: center;
 
         img {
-          width: 22px;
-          height: 22px;
+          width: 17px;
+          height: 17px;
+        }
+      }
+    }
+
+    .headMail {
+      display: flex;
+      align-items: center;
+      padding-top: 10px;
+      width: 100%;
+      height: 70px;
+
+      .headImage {
+        margin-left: 15px;
+
+        img {
+          width: 40px;
+          height: 40px;
+        }
+      }
+      .headEnTete {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+
+        h2 {
+          font-size: 15px;
+          font-weight: 700;
+          color: #181818;
+        }
+
+        p {
+          font-size: 15px;
+          color: gray;
         }
       }
     }
@@ -127,13 +182,13 @@ body {
         color: gray;
 
       }
-
+      
       .object {
-
-        font-size: 15px;
-        font-weight: 500;
-        color: #181818;
-
+        h4 {
+          font-size: 10px;
+          font-weight: 700;
+          color: #181818;
+        }
       }
 
       .intitule {
