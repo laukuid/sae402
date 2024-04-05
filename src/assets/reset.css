@@ -4,12 +4,17 @@
   font-family: "Inter", sans-serif;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
   background: url("defaultBG.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  height: -webkit-fill-available;
 }
 
 /*# sourceMappingURL=reset.css.map */

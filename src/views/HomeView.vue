@@ -70,7 +70,7 @@ import {RouterLink} from "vue-router";
 
     <RouterLink to="/bible">
       <img src="../assets/bible.png" alt="">
-      <p>Sainte Bible</p>
+      <p>Bible</p>
     </RouterLink>
 
     <RouterLink to="/erreurReseau">
@@ -163,7 +163,6 @@ import {RouterLink} from "vue-router";
     width: 396px;
     height: 83px;
     display: flex;
-    gap: 15px;
     justify-content: center;
     align-items: center;
     background-color: rgb(96, 96, 96, 38%);
