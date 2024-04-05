@@ -18,7 +18,7 @@ import {RouterLink} from "vue-router";
       <p>Calendrier</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/gallery">
       <img src="../assets/photos.svg" alt="">
       <p>Photos</p>
     </RouterLink>
@@ -48,19 +48,9 @@ import {RouterLink} from "vue-router";
       <p>Météo</p>
     </RouterLink>
 
-    <RouterLink to="/erreurCrash">
-      <img src="../assets/memorie.svg" alt="">
-      <p>Mémory</p>
-    </RouterLink>
-
     <RouterLink to="/notes">
       <img src="../assets/note.svg" alt="">
       <p>Notes</p>
-    </RouterLink>
-
-    <RouterLink to="/erreurReseau">
-      <img src="../assets/stocks.svg" alt="">
-      <p>Stocks</p>
     </RouterLink>
 
     <RouterLink to="/erreurReseau">
@@ -68,19 +58,14 @@ import {RouterLink} from "vue-router";
       <p>News</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/bible">
       <img src="../assets/bible.png" alt="">
-      <p>Sainte Bible</p>
+      <p>Bible</p>
     </RouterLink>
 
     <RouterLink to="/erreurReseau">
       <img src="../assets/appstore.svg" alt="">
       <p>App Store</p>
-    </RouterLink>
-
-    <RouterLink to="/erreurReseau">
-      <img src="../assets/podcast.svg" alt="">
-      <p>Podcast</p>
     </RouterLink>
 
     <RouterLink to="/erreurReseau">
@@ -94,18 +79,13 @@ import {RouterLink} from "vue-router";
     </RouterLink>
 
     <RouterLink to="/erreurReseau">
-      <img src="../assets/maison.svg" alt="">
-      <p>Maison</p>
-    </RouterLink>
-
-    <RouterLink to="/erreurReseau">
       <img src="../assets/wallet.svg" alt="">
       <p>Wallet</p>
     </RouterLink>
 
     <RouterLink to="/securiteDossier">
       <img src="../assets/dossiersecu.jpg" alt="">
-      <p>Dossier</p>
+      <p>Dos. Privé</p>
     </RouterLink>
     <div class="NavAcueil">
 
@@ -146,7 +126,7 @@ import {RouterLink} from "vue-router";
     align-items: center;
     justify-content: center;
     gap: 5px;
-    width: 90px;
+    width: 25%;
     height: 110px;
     text-decoration: none;
     color: white;
@@ -163,7 +143,7 @@ import {RouterLink} from "vue-router";
     width: 396px;
     height: 83px;
     display: flex;
-    gap: 15px;
+    gap: 5px;
     justify-content: center;
     align-items: center;
 

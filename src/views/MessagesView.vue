@@ -8,74 +8,74 @@
     <RouterLink to="/message1" class="message-item">
       <div class="avatar"></div>
       <div class="message-content">
-        <div class="message-title">+33 6 19 36 44 63</div>
+        <div class="message-title">Spayz</div>
         <div class="message-preview">1 message audio</div>
       </div>
       <div class="message-date">10:22</div>
     </RouterLink>
     <!-- Exemple pour Papa -->
-    <li class="message-item">
+    <RouterLink to="/message2" class="message-item">
       <div class="avatar"></div>
       <div class="message-content">
         <div class="message-title">Papa</div>
-        <div class="message-preview">Cool</div>
+        <div class="message-preview">où es-tu ?...</div>
       </div>
       <div class="message-date">vendredi</div>
-    </li>
+    </RouterLink>
     <!-- Exemple pour Orange -->
-    <li class="message-item">
+    <RouterLink to="/message3" class="message-item">
       <div class="avatar"></div>
       <div class="message-content">
         <div class="message-title">Orange</div>
-        <div class="message-preview">Votre RDV téléphonique prévu le 28/03...</div>
+        <div class="message-preview">Orange : La facture du 06 00 00 00...</div>
       </div>
-      <div class="message-date">26/03/2024</div>
-    </li>
+      <div class="message-date">26/06/2024</div>
+    </RouterLink>
     <!-- Exemple pour 888 -->
-    <li class="message-item">
+    <router-link to="/message4" class="message-item">
       <div class="avatar"></div>
       <div class="message-content">
         <div class="message-title">888</div>
-        <div class="message-preview">"888" messagerie Orange : La sécurité de la messagerie évolue avec un code sec...</div>
+        <div class="message-preview">"888" messagerie Orange : ...</div>
       </div>
-      <div class="message-date">13/03/2024</div>
-    </li>
+      <div class="message-date">17/06/2024</div>
+    </router-link>
     <!-- Exemple pour PASSAGEBLEU -->
-    <li class="message-item">
+    <router-link to="/message5" class="message-item">
       <div class="avatar"></div>
       <div class="message-content">
-        <div class="message-title">PASSAGEBLEU</div>
-        <div class="message-preview">PROLONGATION EXCEPTIONNELLE -30% sur les ÉPILATIONS visage et corps jusqu'au...</div>
+        <div class="message-title">Karl Ledungbud</div>
+        <div class="message-preview"> Cool, à ce soir pour Content Warning...</div>
       </div>
-      <div class="message-date">01/03/2024</div>
-    </li>
+      <div class="message-date">17/06/2024</div>
+    </router-link>
     <!-- Exemple pour Optic 2000 -->
-    <li class="message-item">
+    <router-link to="/message6" class="message-item">
       <div class="avatar"></div>
       <div class="message-content">
-        <div class="message-title">Optic 2000</div>
-        <div class="message-preview">Envie de nouvelles lunettes ? Chez Optic 2000, profitez de remises exceptionnelle...</div>
+        <div class="message-title">Jean Leroux</div>
+        <div class="message-preview">Vous : ...</div>
       </div>
-      <div class="message-date">20/02/2024</div>
-    </li>
+      <div class="message-date">15/06/2024</div>
+    </router-link>
     <!-- Exemple pour 36105 -->
-    <li class="message-item">
+    <router-link to="/message7" class="message-item">
       <div class="avatar"></div>
       <div class="message-content">
         <div class="message-title">36105</div>
         <div class="message-preview">Aujourd'hui, #JeVoteCrous ! Vous avez jusqu'au 8/02 à 17h pour faire...</div>
       </div>
       <div class="message-date">07/02/2024</div>
-    </li>
+    </router-link>
     <!-- Exemple pour 38644 -->
-    <li class="message-item">
+    <RouterLink to="/message8" class="message-item">
       <div class="avatar"></div>
       <div class="message-content">
         <div class="message-title">38644</div>
         <div class="message-preview">PayPal : 715217 est votre code de connexion. Ne partagez pas ce code.</div>
       </div>
       <div class="message-date">23/01/2024</div>
-    </li>
+    </RouterLink>
     <!-- Exemple pour l'adresse email -->
     <li class="message-item">
       <div class="avatar"></div>

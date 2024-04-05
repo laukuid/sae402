@@ -29,7 +29,7 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
       <p>Vidéo</p>
     </div>
     <div class="interaction">
-      <RouterLink to="/"><img src="../assets/" alt=""></RouterLink>
+      <RouterLink to="/"><img src="" alt=""></RouterLink>
       <img class="declancheur" src="../assets/declancheur.png" alt="">
       <img src="../assets/reverse.png" alt="">
     </div>

@@ -26,7 +26,7 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
     </h3>
     <div class="content">
 
-        <div class="sous-content"><div class="sous-sous-content"><img src="@/assets/brouillon.svg" alt=""> <h3>Brouillon</h3></div><div class="content-sous"><p>8</p>
+        <div class="sous-content"><div class="sous-sous-content"><img src="@/assets/brouillon.svg" alt=""> <h3>Brouillon</h3></div><div class="content-sous"><p></p>
           <img src="@/assets/flecheG.svg" alt="fleche gris"></div></div>
 
 
@@ -46,7 +46,7 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
       </router-link>
       <span></span>
 
-        <div class="sous-content"><div class="sous-sous-content"><img src="@/assets/tousmail.svg" alt=""><h3>Tous les mails</h3></div><div class="content-sous"><p>1</p>
+        <div class="sous-content"><div class="sous-sous-content"><img src="@/assets/tousmail.svg" alt=""><h3>Tous les mails</h3></div><div class="content-sous"><p>8</p>
           <img src="@/assets/flecheG.svg" alt="fleche gris"></div></div>
 
     </div>

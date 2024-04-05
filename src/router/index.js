@@ -2,6 +2,13 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import MessagesView from "@/views/MessagesView.vue";
 import Message1View from "@/views/Message1View.vue";
+import Message2View from "@/views/Message2View.vue";
+import Message3View from "@/views/Message3View.vue";
+import Message4View from "@/views/Message4View.vue";
+import Message5View from "@/views/Message5View.vue";
+import Message6View from "@/views/Message6View.vue";
+import Message7View from "@/views/Message7View.vue";
+import Message8View from "@/views/Message8View.vue";
 import NotesView from "@/views/NotesView.vue";
 import DossiersNotesView from "@/views/DossiersNotesView.vue";
 import SupprimerNotesView from "@/views/SupprimerNotes.vue";
@@ -35,6 +42,9 @@ import ErreurGPSView from "@/views/ErreurGPSView.vue";
 import SecuriteDossierView from "@/views/SecuriteDossierView.vue";
 import SousPage from "@/components/SousPage.vue";
 import CodeView from "@/components/CodeView.vue";
+import SafariView from "@/views/SafariView.vue";
+import BibleView from "@/views/BibleView.vue";
+import GalleryView from "@/views/GalleryView.vue";
 
 
 const router = createRouter({
@@ -54,6 +64,41 @@ const router = createRouter({
       path: '/message1',
       name: 'message1',
       component: Message1View
+    },
+    {
+        path: '/message2',
+        name: 'message2',
+        component: Message2View
+        },
+        {
+        path: '/message3',
+        name: 'message3',
+        component: Message3View
+        },
+        {
+        path: '/message4',
+        name: 'message4',
+        component: Message4View
+        },
+        {
+        path: '/message5',
+        name: 'message5',
+        component: Message5View
+        },
+        {
+        path: '/message6',
+        name: 'message6',
+        component: Message6View
+        },
+        {
+        path: '/message7',
+        name: 'message7',
+        component: Message7View
+        },
+        {
+        path: '/message8',
+        name: 'message8',
+        component: Message8View
     },
     {
       path: '/notes',
@@ -219,6 +264,21 @@ const router = createRouter({
       path: '/code',
       name: 'code',
       component: CodeView
+    },
+    {
+      path: '/safari',
+      name: 'safari',
+      component: SafariView
+    },
+    {
+      path: '/bible',
+      name: 'bible',
+      component: BibleView
+    },
+    {
+      path: '/gallery',
+      name: 'gallery',
+      component: GalleryView
     }
   ]
 })

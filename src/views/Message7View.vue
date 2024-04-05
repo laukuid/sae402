@@ -14,7 +14,7 @@ import {RouterLink} from "vue-router";
   </div>
 
   <div class="message-screen">
-    <div class="time">13 juin 20:17</div>
+    <div class="time">Aujourd'hui 10:17</div>
     <div class="message sender">Salut beaux gosse</div>
     <div class="message sender">Salut beauté</div>
     <div class="message receiver">Bien le bonjour jeune farfadet malicieux</div>

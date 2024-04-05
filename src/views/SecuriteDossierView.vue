@@ -8,7 +8,7 @@ export default {
   },
   methods: {
     checkCode() {
-      if (this.code.toString() === '1234') { // Convertissez this.code en chaîne de caractères
+      if (this.code.toString() === '5271') { // Convertissez this.code en chaîne de caractères
         this.$router.push('/sousPage');
       } else {
         this.error = true;
@@ -41,6 +41,7 @@ body {
     width: calc(430px - 30px);
     background-color: #193c76;
     color: #181818;
+    overflow: hidden;
     .chiffre{
       display: flex;
       flex-direction: column;
@@ -70,7 +71,7 @@ body {
         margin-bottom: 20px;
       }
       p{
-        color: #e4af0b;
+        color: red;
         font-size: 20px;
       }
     }
