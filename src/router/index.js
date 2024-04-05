@@ -47,7 +47,7 @@ import CodeView from "@/components/CodeView.vue";
 import SafariView from "@/views/SafariView.vue";
 import BibleView from "@/views/BibleView.vue";
 import GalleryView from "@/views/GalleryView.vue";
-
+import IntroView from "@/views/IntroView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -291,6 +291,11 @@ const router = createRouter({
       path: '/gallery',
       name: 'gallery',
       component: GalleryView
+    },
+    {
+      path: '/intro',
+      name: 'intro',
+      component: IntroView
     }
   ]
 })
