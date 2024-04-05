@@ -5,7 +5,7 @@
 <template>
   <main>
     <div class="solution">
-      <h1>bravo vous avez trouvez la solution</h1>
+
       <p>Agnus Dei : Livre des Sacrements <br><br>
 
         Sacrement 6 : Le Sacrement de l’Agneau <br><br>
@@ -35,8 +35,9 @@
         Saintement, <br><br>
 
         Jean Leroux, Haut-Prêtre de la Paroisse.” <br><br>
-      </p>
-      <img src="@/assets/FauxEnlevement.png" alt="">
+      </p><br>
+      <img src="@/assets/FauxEnlevement.png" alt=""><img class="image2" src="@/assets/photodeegirl.jpg" alt=""><img
+      class="image3"  src="@/assets/rapportmedic.png" alt="">
     </div>
   </main>
 </template>
@@ -65,6 +66,15 @@ body {
     img{
       width: 320px;
       height: 720px;
+      margin-bottom: 15px;
+    }
+    .image2{
+      width: 320px;
+      height: 320px;
+    }
+    .image3{
+      width: 320px;
+      height: 420px;
     }
     p{
       color: #fff;

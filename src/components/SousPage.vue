@@ -8,7 +8,7 @@ export default {
   },
   methods: {
     checkCode() {
-      if (this.code.toString() === '8') { // Convertissez this.code en chaîne de caractères
+      if (this.code.toString() === '9') { // Convertissez this.code en chaîne de caractères
         this.$router.push('/code');
       } else {
         this.error = true;
