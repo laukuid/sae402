@@ -8,18 +8,20 @@ import {RouterLink} from "vue-router";
     </RouterLink>
     <div class="profil">
       <img src="/src/assets/profil.png" alt="">
-      <p>+33 6 19 36 44 63</p>
+      <p>Papa</p>
     </div>
 
   </div>
 
   <div class="message-screen">
-    <div class="time">13 juin 20:17</div>
-    <div class="message sender">Salut beaux gosse</div>
-    <div class="message sender">Salut beauté</div>
-    <div class="message receiver">Bien le bonjour jeune farfadet malicieux</div>
-    <div class="message receiver">Ouais mon gars tu vas bien ou quoi?</div>
-    <div class="message receiver">Je t'écris ce texte long pour voir ce que cela donne sur plusieurs lignes mon bébou sucré</div>
+    <div class="time">27 juin 10:47</div>
+    <div class="message receiver">Salut papa ce soir je passerai chez un pote pour faire un exposé</div>
+    <div class="message receiver">je rentrerai vers 20h30, bisous</div>
+    <div class="time">27 juin 22:19</div>
+
+    <div class="message sender">bonjour rentres-tu bientôt ?</div>
+    <div class="message sender">où est tu ? tu rentres bientôt ?</div>
+
   </div>
 
   <div class="input-bar">

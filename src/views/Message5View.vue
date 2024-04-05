@@ -8,18 +8,19 @@ import {RouterLink} from "vue-router";
     </RouterLink>
     <div class="profil">
       <img src="/src/assets/profil.png" alt="">
-      <p>+33 6 19 36 44 63</p>
+      <p>karl ledungbud</p>
     </div>
 
   </div>
 
   <div class="message-screen">
-    <div class="time">13 juin 20:17</div>
-    <div class="message sender">Salut beaux gosse</div>
-    <div class="message sender">Salut beauté</div>
-    <div class="message receiver">Bien le bonjour jeune farfadet malicieux</div>
-    <div class="message receiver">Ouais mon gars tu vas bien ou quoi?</div>
-    <div class="message receiver">Je t'écris ce texte long pour voir ce que cela donne sur plusieurs lignes mon bébou sucré</div>
+    <div class="time">Aujourd'hui 10:17</div>
+    <div class="message receiver">Vasy carré mec, je l’ai installé tout à l’heure en plus</div>
+    <div class="message sender">Lessgong. Au fait, j'organise une soirée chez moi le 19 juint, ça te dit de venir ? Mes darons partent pour le weekend du coup j’ai la baraque à moi tout seul, ça va se la mettre fort.</div>
+    <div class="message receiver">Ouais carrément, c’est quoi ton adresse déjà ?</div>
+    <div class="message sender">16 rue de la Liberté, Noircheval, 8500. La maison avec le portail rouge</div>
+    <div class="message receiver">Yes je me souviens maintenant, bah nickel mec je serais là.</div>
+    <div class="message sender">Cool, à ce soir pour Content Warning du coup, je serais co vers 21h.</div>
   </div>
 
   <div class="input-bar">

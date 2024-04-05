@@ -6,51 +6,51 @@ import {RouterLink, RouterView, useRouter} from 'vue-router'
 <div class="app-container">
   <div class="app-window">
     <div class="app-header">Centre Hospitalier...</div>
-    <div class="app-content"><img src="../assets/safari.png" alt="App content" style="width: 100%; height: auto;"></div>
+    <div class="app-content"><img src="" alt="App content" style="width: 100%; height: auto;"></div>
   </div>
   <div class="app-window">
     <div class="app-header">Stage développeur We...</div>
-    <div class="app-content"><img src="../assets/safari.png" alt="App content" style="width: 100%; height: auto;"></div>
+    <div class="app-content"><img src="" alt="App content" style="width: 100%; height: auto;"></div>
   </div>
   <div class="app-window">
     <div class="app-header">Inscription Crée t...</div>
-    <div class="app-content"><img src="../assets/safari.png" alt="App content" style="width: 100%; height: auto;"></div>
+    <div class="app-content"><img src="" alt="App content" style="width: 100%; height: auto;"></div>
   </div>
   <div class="app-window">
     <div class="app-header">Merci pour votre ach...</div>
-    <div class="app-content"><img src="../assets/safari.png" alt="App content" style="width: 100%; height: auto;"></div>
+    <div class="app-content"><img src="" alt="App content" style="width: 100%; height: auto;"></div>
   </div>
   <div class="app-window">
     <div class="app-header">Sac à Dos Homme...</div>
-    <div class="app-content"><img src="../assets/safari.png" alt="App content" style="width: 100%; height: auto;"></div>
+    <div class="app-content"><img src="" alt="App content" style="width: 100%; height: auto;"></div>
   </div>
   <div class="app-window">
     <div class="app-header">FANDARE Antivol...</div>
-    <div class="app-content"><img src="../assets/safari.png" alt="App content" style="width: 100%; height: auto;"></div>
+    <div class="app-content"><img src="" alt="App content" style="width: 100%; height: auto;"></div>
   </div>
   <div class="app-window">
     <div class="app-header">Suivez votre col...</div>
-    <div class="app-content"><img src="../assets/safari.png" alt="App content" style="width: 100%; height: auto;"></div>
+    <div class="app-content"><img src="" alt="App content" style="width: 100%; height: auto;"></div>
   </div>
   <div class="app-window">
     <div class="app-header">Track My Order</div>
-    <div class="app-content"><img src="../assets/safari.png" alt="App content" style="width: 100%; height: auto;"></div>
+    <div class="app-content"><img src="" alt="App content" style="width: 100%; height: auto;"></div>
   </div>
   <div class="app-window">
     <div class="app-header">SpaizTwitch...</div>
-    <div class="app-content"><img src="../assets/safari.png" alt="App content" style="width: 100%; height: auto;"></div>
+    <div class="app-content"><img src="" alt="App content" style="width: 100%; height: auto;"></div>
   </div>
   <div class="app-window">
     <div class="app-header">SaykoTwitch...</div>
-    <div class="app-content"><img src="../assets/safari.png" alt="App content" style="width: 100%; height: auto;"></div>
+    <div class="app-content"><img src="" alt="App content" style="width: 100%; height: auto;"></div>
   </div>
   <div class="app-window">
     <div class="app-header">air up Tracking</div>
-    <div class="app-content"><img src="../assets/safari.png" alt="App content" style="width: 100%; height: auto;"></div>
+    <div class="app-content"><img src="" alt="App content" style="width: 100%; height: auto;"></div>
   </div>
   <div class="app-window">
     <div class="app-header">Twitch</div>
-    <div class="app-content"><img src="../assets/safari.png" alt="App content" style="width: 100%; height: auto;"></div>
+    <div class="app-content"><img src="" alt="App content" style="width: 100%; height: auto;"></div>
   </div>
 </div>
 

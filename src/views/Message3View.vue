@@ -8,18 +8,15 @@ import {RouterLink} from "vue-router";
     </RouterLink>
     <div class="profil">
       <img src="/src/assets/profil.png" alt="">
-      <p>+33 6 19 36 44 63</p>
+      <p>Orange</p>
     </div>
 
   </div>
 
   <div class="message-screen">
-    <div class="time">13 juin 20:17</div>
-    <div class="message sender">Salut beaux gosse</div>
-    <div class="message sender">Salut beauté</div>
-    <div class="message receiver">Bien le bonjour jeune farfadet malicieux</div>
-    <div class="message receiver">Ouais mon gars tu vas bien ou quoi?</div>
-    <div class="message receiver">Je t'écris ce texte long pour voir ce que cela donne sur plusieurs lignes mon bébou sucré</div>
+    <div class="time"> 00:00</div>
+    <div class="message sender">Orange : La facture du 06000000 du 25/06/2024 n'a pas été réglé sur https://my.orange.fr/factures-f. Son montant de 20,99 €.</div>
+
   </div>
 
   <div class="input-bar">

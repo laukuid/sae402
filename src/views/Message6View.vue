@@ -8,14 +8,14 @@ import {RouterLink} from "vue-router";
     </RouterLink>
     <div class="profil">
       <img src="/src/assets/profil.png" alt="">
-      <p>+33 6 19 36 44 63</p>
+      <p>Jean Leroux</p>
     </div>
 
   </div>
 
   <div class="message-screen">
-    <div class="time">13 juin 20:17</div>
-    <div class="message sender">Salut beaux gosse</div>
+    <div class="time">15/06/2024 10:17</div>
+    <div class="message sender"> Salve, discipulus, je vous envoie ce message pour vous prévenir que notre organisation aura bientôt fini les préparatifs pour ce weekend, aurez-vous ce qu’il faut de votre côté ?</div>
     <div class="message sender">Salut beauté</div>
     <div class="message receiver">Bien le bonjour jeune farfadet malicieux</div>
     <div class="message receiver">Ouais mon gars tu vas bien ou quoi?</div>
