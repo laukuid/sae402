@@ -2,6 +2,9 @@
 import { RouterLink, RouterView, useRouter  } from 'vue-router'
 </script>
 <template>
+  <div class="espace">
+
+  </div>
   <div class="gallery">
 
     <div class="photo">
@@ -92,6 +95,11 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
 
 </template>
 <style scoped lang="scss">
+.espace{
+  height: 35px;
+  width: 100vw;
+  background-color: white;
+}
 .status-bar {
   background-color: #f8f8f7;
   padding: 5px 10px;
@@ -106,13 +114,13 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
   padding: 10px 0;
 }
 .gallery {
-  padding-top: 35px;
   background-color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-bottom: 110px;
   overflow: auto;
+  height: calc(85vh - 35px);
 }
 .photo {
   width: calc(33.333% - 4px);
@@ -144,6 +152,7 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
   position: fixed;
   bottom: 0;
   width: 100%;
+  height: 15vh;
   background: white;
   padding: 10px 0;
   box-shadow: 0 -2px 5px rgba(0,0,0,0.2);

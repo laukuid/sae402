@@ -85,7 +85,7 @@ import {RouterLink} from "vue-router";
 
     <RouterLink to="/securiteDossier">
       <img src="../assets/dossiersecu.jpg" alt="">
-      <p>Dos. Privé</p>
+      <p>Privé</p>
     </RouterLink>
     <div class="NavAcueil">
 
@@ -135,6 +135,7 @@ import {RouterLink} from "vue-router";
       height: 60px;
       object-fit: cover;
       border-radius: 12px;
+      background-color: grey;
     }
   }
   .NavAcueil{
