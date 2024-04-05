@@ -1,83 +1,62 @@
 <script setup>
 import { RouterLink, RouterView, useRouter  } from 'vue-router'
+const addBananeClass = (event) => {
+  // Vérifie si l'image cliquée a déjà la classe 'banane'
+  if (event.currentTarget.classList.contains('banane')) {
+    // Si oui, supprimez-la
+    event.currentTarget.classList.remove('banane');
+  } else {
+    // Sinon, ajoutez-la
+    event.currentTarget.classList.add('banane');
+  }
+}
+const scrollToTop = () => {
+  // Faites défiler la div gallery vers le haut
+  const galleryElement = $refs.gallery;
+  galleryElement.scrollTop = 0;
+}
 </script>
 <template>
   <div class="espace">
 
   </div>
-  <div class="gallery">
+  <div class="gallery" >
 
     <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
+      <img src="../assets/image1.jpg" alt="Description for image" @click="addBananeClass($event)">
     </div>
     <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
+      <img src="../assets/image2.jpg" alt="Description for image" @click="addBananeClass($event)">
     </div>
     <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
+      <img src="../assets/image3.jpg" alt="Description for image" @click="addBananeClass($event)">
     </div>
     <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
+      <img src="../assets/image4.png" alt="Description for image" @click="addBananeClass($event)">
     </div>
     <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
+      <img src="../assets/image5.jpg" alt="Description for image" @click="addBananeClass($event)">
     </div>
     <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
+      <img src="../assets/image6.jpg" alt="Description for image" @click="addBananeClass($event)">
     </div>
     <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
+      <img src="../assets/image7.jpg" alt="Description for image" @click="addBananeClass($event)">
     </div>
     <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
+      <img src="../assets/image8.jpg" alt="Description for image" @click="addBananeClass($event)">
     </div>
     <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
+      <img src="../assets/image9.jpg" alt="Description for image" @click="addBananeClass($event)">
     </div>
     <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
+      <img src="../assets/indice.jpg" alt="Description for image" @click="addBananeClass($event)">
     </div>
     <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
+      <img src="../assets/image11.jpg" alt="Description for image" @click="addBananeClass($event)">
     </div>
     <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
-    </div>
-    <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
-    </div>
-    <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
-    </div>
-    <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
-    </div>
-    <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
-    </div>
-    <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
-    </div>
-    <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
-    </div>
-    <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
-    </div>
-    <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image"onclick="openModal(this)">
-    </div>
-    <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image" onclick="openModal(this)">
-    </div>
-    <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image" onclick="openModal(this)">
-    </div>
-    <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image" onclick="openModal(this)">
-    </div>
-    <div class="photo">
-      <img src="../assets/safari.png" alt="Description for image" onclick="openModal(this)">
+      <img src="../assets/image12.jpg" alt="Description for image" @click="addBananeClass($event)">
     </div>
   </div>
   <div class="bottom-bar">
@@ -114,6 +93,7 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
   padding: 10px 0;
 }
 .gallery {
+  position: relative;
   background-color: white;
   display: flex;
   flex-wrap: wrap;
@@ -122,13 +102,27 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
   overflow: auto;
   height: calc(85vh - 35px);
 }
+.banane{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0px;
+  height: calc(85vh - 35px) !important;
+  background-color: grey;
+  object-fit: contain !important;
+}
 .photo {
   width: calc(33.333% - 4px);
+  height: calc(25% - 4px) ;
   margin: 2px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: grey;
+  overflow: hidden;
 }
 
 .photo img {
@@ -136,6 +130,7 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
   height: auto;
   display: block;
   background-color: grey;
+  object-fit: cover;
 }
 
 .photo label {
@@ -212,16 +207,3 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
   z-index: 10;
 }
 </style>
-<script>
-function openModal(img) {
-  var modal = document.getElementById("myModal");
-  var modalImg = document.getElementById("modalImage");
-  modalImg.src = img.src;
-  modal.style.display = "block";
-}
-
-function closeModal() {
-  var modal = document.getElementById("myModal");
-  modal.style.display = "none";
-}
-</script>
