@@ -38,6 +38,18 @@ const changeColorFunc= () => {
     case '/camera':
       changeColor.value = 'white';
       break;
+    case '/safari':
+      changeColor.value = 'white';
+      break;
+    case '/securiteDossier':
+      changeColor.value = 'white';
+      break;
+    case '/sousPage':
+      changeColor.value = 'white';
+      break;
+    case '/code':
+      changeColor.value = 'white';
+      break;
     default:
       changeColor.value = 'black';
   }
@@ -132,6 +144,7 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 200;
   a{
     span{
       display: inline-block;

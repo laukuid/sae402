@@ -68,7 +68,7 @@ import {RouterLink} from "vue-router";
       <p>News</p>
     </RouterLink>
 
-    <RouterLink to="/">
+    <RouterLink to="/bible">
       <img src="../assets/bible.png" alt="">
       <p>Sainte Bible</p>
     </RouterLink>
@@ -139,14 +139,14 @@ import {RouterLink} from "vue-router";
   margin-top: 45px;
   padding: 25px;
   padding-bottom: 330px;
-  overflow-y: hidden;
+  overflow: auto;
   a{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 5px;
-    width: 90px;
+    width: 25%;
     height: 110px;
     text-decoration: none;
     color: white;
@@ -166,7 +166,6 @@ import {RouterLink} from "vue-router";
     gap: 15px;
     justify-content: center;
     align-items: center;
-
     background-color: rgb(96, 96, 96, 38%);
     border-radius: 15px;
   }

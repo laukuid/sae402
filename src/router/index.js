@@ -27,7 +27,8 @@ import ErreurGPSView from "@/views/ErreurGPSView.vue";
 import SecuriteDossierView from "@/views/SecuriteDossierView.vue";
 import SousPage from "@/components/SousPage.vue";
 import CodeView from "@/components/CodeView.vue";
-
+import SafariView from "@/views/SafariView.vue";
+import BibleView from "@/views/BibleView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -171,6 +172,16 @@ const router = createRouter({
       path: '/code',
       name: 'code',
       component: CodeView
+    },
+    {
+      path: '/safari',
+      name: 'safari',
+      component: SafariView
+    },
+    {
+      path: '/bible',
+      name: 'bible',
+      component: BibleView
     }
   ]
 })
