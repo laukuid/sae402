@@ -4,10 +4,6 @@
   font-family: "Inter", sans-serif;
 }
 
-html {
-  height: -webkit-fill-available;
-}
-
 body {
   background: url("defaultBG.png");
   background-position: center;
