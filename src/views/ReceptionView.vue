@@ -134,7 +134,7 @@ body {
     flex-direction: column;
     padding: 35px 15px;
     height: calc(100vh - 70px);
-    width: calc(430px - 30px);
+    width: calc(100vw - 30px);
     background-color: #F3F2F8;
     color: #181818;
 
