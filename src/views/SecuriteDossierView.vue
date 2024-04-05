@@ -41,6 +41,7 @@ body {
     width: calc(430px - 30px);
     background-color: #193c76;
     color: #181818;
+    overflow: hidden;
     .chiffre{
       display: flex;
       flex-direction: column;
