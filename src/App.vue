@@ -5,6 +5,7 @@ import HeaderView from "@/views/HeaderView.vue";
 </script>
 
 <template>
+
   <header-view />
 
   <RouterView />

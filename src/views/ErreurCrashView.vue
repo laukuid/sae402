@@ -8,7 +8,7 @@ import { RouterLink, RouterView } from 'vue-router';
       <div class="popup">
         <div class="text">
           <h3>Erreur</h3>
-          <p>Le programme a rencontré un problème et doit être fermée.</p>
+          <p>Le programme a rencontré un problème et doit être fermé.</p>
         </div>
         <span></span>
         <RouterLink to="/">OK</RouterLink>

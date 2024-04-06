@@ -7,8 +7,8 @@ import { RouterLink, RouterView } from 'vue-router';
     <div class="container">
       <div class="popup">
         <div class="text">
-          <h3>Erreur Réseaux</h3>
-          <p>Vous avez besoin d'une connection internet pour utilisé cette aplication</p>
+          <h3>Erreur Réseau</h3>
+          <p>Vous avez besoin d'une connection internet pour utiliser cette aplication</p>
         </div>
         <span></span>
         <RouterLink to="/">OK</RouterLink>

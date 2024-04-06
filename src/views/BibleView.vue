@@ -9,7 +9,6 @@ import {RouterLink, RouterView, useRouter} from 'vue-router'
      <p class="pdexieme">Chap. 6, 1-8</p>
    </div>
    <div class="text">
-    <h3>Jésus-Christ est la Parole qui vien de Dieu</h3>
      <q>[1] Alors je vis que l’Agneau avait ouvert un des sceaux, et j’entendis l’un des quatre animaux qui disait d’une voix de tonnerre : Viens et vois.</q>
      <q>[2] Je regardai donc, et je vis un cheval blanc, et celui qui était monté dessus avait un arc, et on lui donna une couronne, et il partit en vainqueur, pour remporter la victoire.</q>
      <q>[3] Et lorsque l’Agneau eut ouvert le second sceau, j’entendis le second animal qui disait : Viens, et vois.</q>

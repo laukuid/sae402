@@ -8,9 +8,9 @@ import {RouterLink} from "vue-router";
 
   <div class="Home">
 
-    <RouterLink to="/erreurReseau">
+    <RouterLink to="/intro">
       <img src="../assets/facetime.svg" alt="">
-      <p>FaceTime</p>
+      <p>Intro</p>
     </RouterLink>
 
     <RouterLink to="/erreurCrash">

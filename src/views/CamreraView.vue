@@ -14,7 +14,7 @@ import { RouterLink, RouterView, useRouter  } from 'vue-router'
       <div class="popup">
         <div class="text">
           <h3>Erreur Caméra</h3>
-          <p>Le programme n'arrive pas à accéder à votre caméra. La caméra de l'appareil semble endommagé.</p>
+          <p>Le programme n'arrive pas à accéder à votre caméra. La caméra de l'appareil semble endommagée.</p>
         </div>
         <span></span>
         <RouterLink to="/">OK</RouterLink>

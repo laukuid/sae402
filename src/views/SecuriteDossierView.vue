@@ -21,7 +21,7 @@ export default {
 <template>
 <main>
   <div class="chiffre">
-    <h1>Entrez le code à 4 chiffres</h1>
+    <h1>Entrez le premier mot de passe à 4 chiffres</h1>
     <input v-model="code" type="number" min="0" max="9999" />
     <button @click="checkCode">Valider</button>
     <p v-if="error">Le code est incorrect</p>
