@@ -10,6 +10,7 @@ import Message6View from "@/views/Message6View.vue";
 import Message7View from "@/views/Message7View.vue";
 import Message8View from "@/views/Message8View.vue";
 import Message9View from "@/views/Message9View.vue";
+import Message10View from "@/views/Message10View.vue";
 import NotesView from "@/views/NotesView.vue";
 import DossiersNotesView from "@/views/DossiersNotesView.vue";
 import SupprimerNotesView from "@/views/SupprimerNotes.vue";
@@ -106,6 +107,11 @@ const router = createRouter({
         path: '/message9',
         name: 'message9',
         component: Message9View
+    },
+    {
+        path: '/message10',
+        name: 'message10',
+        component: Message10View
     },
     {
       path: '/notes',

@@ -85,6 +85,14 @@
       </div>
       <div class="message-date">10/01/2024</div>
     </router-link>
+    <RouterLink to="/message10" class="message-item">
+      <div class="avatar"></div>
+      <div class="message-content">
+        <div class="message-title">Groupe Agnus Dei</div>
+        <div class="message-preview">Conquête : ...</div>
+      </div>
+      <div class="message-date">05/06/2024</div>
+    </RouterLink>
   </ul>
 </template>
 
